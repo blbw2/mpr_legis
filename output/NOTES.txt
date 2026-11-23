@@ -1,0 +1,4 @@
+CEE 2024 : l'output de Claude donne l'impression que la publication de BAR-TH-171
+n'a modifié que les cumac pour la zone H2 ; en fait les coefficients techniques \eta
+relatifs aux efficiences saisonnières des équipements ont été intégralement refondus (bandes de performance, cumac).
+Les coefficients géographiques (H1,H2,H3) n'ont pas bougé, mais les cumac oui vu que cumac = eta*facteur_surface*H_i

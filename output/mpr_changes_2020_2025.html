@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>MPR changes 2020-2025</title>
+<style>
+@page { size: A4 landscape; margin: 10mm; }
+body { font-family: "Segoe UI", Arial, sans-serif; font-size: 9.5pt; color: #222; margin: 16px; }
+h1 { font-size: 15pt; margin: 0 0 4px; }
+p.lead { margin: 0 0 10px; color: #555; font-size: 9pt; }
+table { border-collapse: collapse; width: 100%; table-layout: fixed; }
+th { background: #2f3e4e; color: #fff; text-align: left; padding: 6px; font-weight: 600; position: sticky; top: 0; }
+td { border-bottom: 1px solid #ddd; padding: 6px; vertical-align: top; line-height: 1.35; }
+tr { page-break-inside: avoid; }
+tr.year td { background: #e9eef3; font-weight: 700; font-size: 11pt; padding: 4px 6px; border-bottom: 2px solid #2f3e4e; }
+col.c1 { width: 11%; } col.c2 { width: 15%; } col.c3 { width: 13%; } col.c4 { width: 39%; } col.c5 { width: 22%; }
+.sub { color: #777; font-size: 8pt; margin-top: 2px; white-space: nowrap; }
+td.act .sub { white-space: normal; word-break: break-all; }
+.tag { display: inline-block; background: #eef1f4; border: 1px solid #d5dbe1; border-radius: 3px; padding: 0 4px; margin: 3px 2px 0 0; font-size: 7.5pt; color: #445; }
+.badge { display: inline-block; border-radius: 3px; padding: 1px 6px; font-size: 8pt; font-weight: 700; text-transform: uppercase; }
+.badge.high { background: #c0392b; color: #fff; } .badge.medium { background: #e6a23c; color: #fff; } .badge.low { background: #bbb; color: #fff; }
+tr.high td.ne { background: #fdf3f2; }
+.note { margin-top: 4px; font-size: 8.5pt; color: #333; }
+</style></head><body>
+<h1>MaPrimeRénov' : regulatory changes 2020-2025</h1>
+<p class="lead">Décret 2020-26 and arrêté 14 janv. 2020 amendments, from the Légifrance API. Sorted by date of effect. "NE" = potential as a natural experiment. Source: output/mpr_changes_2020_2025.csv.</p>
+<table>
+<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"></colgroup>
+<thead><tr><th>Effect</th><th>Act</th><th>Applies to</th><th>Content</th><th>NE potential</th></tr></thead>
+<tbody>
+<tr class="year"><td colspan="5">2020</td></tr>
+<tr class="low">
+  <td class="date"><b>15/07/2020</b><div class="sub">signed 13/07/2020<br>JO 14/07/2020</div></td>
+  <td class="act"><b>Décret 2020-864 + Arrêté 13 juil. 2020</b><div class="sub">JORFTEXT000042113382<br> JORFTEXT000042113401</div><span class="tag">amount</span> <span class="tag">procedure</span></td>
+  <td class="applies">applications filed from 2020-07-15</td>
+  <td class="content">External wall insulation (ITE): forfaits revised and 100 m2 surface cap introduced. Works started 15 Jul-31 Aug 2020 may apply after starting (until 1 Nov 2020). For ITE expenses paid 15 Jul-31 Dec 2020, the prime is topped up to the CITE amount if lower.</td>
+  <td class="ne"><span class="badge low">low</span><div class="note">Small, ITE-specific adjustment during the CITE-to-MPR transition.</div></td>
+</tr>
+<tr class="year"><td colspan="5">2021</td></tr>
+<tr class="medium">
+  <td class="date"><b>01/01/2021</b><div class="sub">signed 03/06/2020<br>JO 05/06/2020</div></td>
+  <td class="act"><b>Décret 2020-674</b><div class="sub">JORFTEXT000041959431</div><span class="tag">firm_rule</span></td>
+  <td class="applies">expenses paid from 2021-01-01 (quotes + deposit before then exempt)</td>
+  <td class="content">Works open the right to MPR only if done by a firm holding the RGE qualification for that specific category of works (17 categories listed); when a firm does several works, only categories covered by its RGE sign are eligible. Energy auditor qualification aligned on décret 30 May 2018.</td>
+  <td class="ne"><span class="badge medium">medium</span><div class="note">Firm-side: category-specific RGE requirement. Exposure varies with the firm's pre-2021 RGE portfolio. Coincides with the 2021 opening of MPR, so hard to isolate.</div></td>
+</tr>
+<tr class="high">
+  <td class="date"><b>27/01/2021</b><div class="sub">signed 25/01/2021<br>JO 26/01/2021</div></td>
+  <td class="act"><b>Décret 2021-59 + Arrêté 25 janv. 2021</b><div class="sub">JORFTEXT000043046512<br> JORFTEXT000043046582</div><span class="tag">eligibility_applicant</span> <span class="tag">income_brackets</span> <span class="tag">amount</span> <span class="tag">cumulation</span></td>
+  <td class="applies">applications filed from 2021-01-01; ex-post applications for violet/rose works started 2020-10-01..12-31 on quotes signed then</td>
+  <td class="content">Opening to intermediate (violet) and upper (rose) income owner-occupants; to landlords (from 2021-07-01 until 2022-12-31) and other real-right holders (from 2021-07-01). Four income categories defined (intermediate/upper ceilings set in arrêté annex). New forfaits: AMO and rénovation globale (individual houses only), bonuses 'sortie de passoire' and 'BBC' (2021-2022). Écrêtement: MPR + CEE + other aids cannot leave less than a set share of cost at the household's charge, by income category. ANAH does not pay/recover primes under 80 EUR.</td>
+  <td class="ne"><span class="badge high">high</span><div class="note">Income category x time: violet/rose enter on 2021-01-01 (France Relance, CITE closure). Anticipation risk: announced Sept 2020 and retroactive window from 2020-10-01, so treat Oct 2020 as start or drop Q4 2020. CITE phase-out is a concurrent confounder for violet/rose.</div></td>
+</tr>
+<tr class="low">
+  <td class="date"><b>27/01/2021</b><div class="sub">signed 25/01/2021<br>JO 26/01/2021</div></td>
+  <td class="act"><b>Décret 2021-58</b><div class="sub">JORFTEXT000043046503</div><span class="tag">procedure</span></td>
+  <td class="applies">in force next day</td>
+  <td class="content">Composition and referral rules of the ANAH sanctions commission (mandataires, fraud).</td>
+  <td class="ne"><span class="badge low">low</span><div class="note"></div></td>
+</tr>
+<tr class="low">
+  <td class="date"><b>26/04/2021</b><div class="sub">signed 23/04/2021<br>JO 25/04/2021</div></td>
+  <td class="act"><b>Décret 2021-500</b><div class="sub">JORFTEXT000043416640</div><span class="tag">procedure</span></td>
+  <td class="applies">in force next day</td>
+  <td class="content">Personal data processing: ANAH data may be shared with ministries, SDES (statistics), DGFiP, anti-fraud services, RGE bodies; retention periods.</td>
+  <td class="ne"><span class="badge low">low</span><div class="note">Not a treatment, but relevant for data access (SDES transmission explicitly allowed).</div></td>
+</tr>
+<tr class="medium">
+  <td class="date"><b>10/07/2021</b><div class="sub">signed 08/07/2021<br>JO 09/07/2021</div></td>
+  <td class="act"><b>Décret 2021-911 + Arrêté 8 juil. 2021</b><div class="sub">JORFTEXT000043771907<br> JORFTEXT000043771937</div><span class="tag">eligibility_applicant</span> <span class="tag">procedure</span></td>
+  <td class="applies">applications filed from 2021-07-01</td>
+  <td class="content">Landlords (eligible from 2021-07-01): commitment to cap rent increases (prime deducted) and inform tenant; 5-year rental counted from prime payment. Legal persons explicitly excluded. Overseas: three DROM-specific forfaits; DROM excluded from rénovation globale and bonuses. ITE: CEE counted in the calculation regardless of the 100 m2 cap.</td>
+  <td class="ne"><span class="badge medium">medium</span><div class="note">Landlord entry on 2021-07-01: owner-occupied vs rented dwellings. Landlord take-up was reportedly low.</div></td>
+</tr>
+<tr class="year"><td colspan="5">2022</td></tr>
+<tr class="high">
+  <td class="date"><b>01/01/2022</b><div class="sub">signed 30/12/2021<br>JO 31/12/2021</div></td>
+  <td class="act"><b>Décret 2021-1938 + Arrêté 30 déc. 2021</b><div class="sub">JORFTEXT000044793433<br> JORFTEXT000044793470</div><span class="tag">eligibility_housing</span> <span class="tag">procedure</span> <span class="tag">amount</span></td>
+  <td class="applies">applications filed from 2022-01-01</td>
+  <td class="content">Dwelling must be at least 15 years old at grant notification (previously over 2 years), except fuel-oil boiler replacement combined with tank removal. Minimum occupancy 8 months per year. Owner must occupy as main residence within 1 year of balance request. Works deadline extended to 2 years (1 year with advance). Forfaits for closed fireplaces/inserts raised.</td>
+  <td class="ne"><span class="badge high">high</span><div class="note">Construction-year discontinuity: dwellings aged 2-15 years lose eligibility for applications from 2022-01-01 (except fuel-oil replacement). DiD / RD by construction cohort. Published 31 Dec 2021, but likely anticipated in Q4 2021.</div></td>
+</tr>
+<tr class="high">
+  <td class="date"><b>15/04/2022</b><div class="sub">signed 07/04/2022<br>JO 12/04/2022</div></td>
+  <td class="act"><b>Arrêté 7 avr. 2022</b><div class="sub">JORFTEXT000045545997</div><span class="tag">amount</span></td>
+  <td class="applies">applications filed 2022-04-15..2022-12-31 (extended to 2023-03-31 by arrêté 29 déc. 2022)</td>
+  <td class="content">Plan de résilience: +1,000 EUR for blue/yellow/violet on auto biomass boiler (10000/8000/4000 -&gt; 11000/9000/5000), manual biomass boiler, solar heating, geothermal heat pump (10000/8000/4000 -&gt; 11000/9000/5000), air-water heat pump (4000/3000/2000 -&gt; 5000/4000/3000). Caps unchanged. Heat-pump water heaters (CET), stoves, insulation unchanged.</td>
+  <td class="ne"><span class="badge high">high</span><div class="note">Geste x time. Air-water heat pump vs CET contrast is clean (CET flat at 1200/800/400). Published 3 days before taking effect; announced in March 2022 plan (date to verify). End of bonus on 2023-04-01 gives a reversal event.</div></td>
+</tr>
+<tr class="low">
+  <td class="date"><b>15/10/2022</b><div class="sub">signed 13/10/2022<br>JO 14/10/2022</div></td>
+  <td class="act"><b>Décret 2022-1319 + Arrêté 13 oct. 2022</b><div class="sub">JORFTEXT000046422184<br> JORFTEXT000046422223</div><span class="tag">eligibility_housing</span> <span class="tag">amount</span></td>
+  <td class="applies">applications filed from 2022-10-15</td>
+  <td class="content">Overseas (DROM): dwelling age requirement over 2 years (vs at least 15 in mainland). DROM solar water-heater forfaits cut.</td>
+  <td class="ne"><span class="badge low">low</span><div class="note">DROM only.</div></td>
+</tr>
+<tr class="medium">
+  <td class="date"><b>31/10/2022</b><div class="sub">signed 20/10/2022<br>JO 30/10/2022</div></td>
+  <td class="act"><b>Arrêté 20 oct. 2022</b><div class="sub">JORFTEXT000046503635</div><span class="tag">amount</span> <span class="tag">technical</span></td>
+  <td class="applies">in force next day</td>
+  <td class="content">Double-flow ventilation (VMC DF) forfaits cut: 4000/3000/2000 -&gt; 3000/2500/1500. Technical criteria for solar thermal equipment (mainland) tightened.</td>
+  <td class="ne"><span class="badge medium">medium</span><div class="note">Geste-specific cut with little notice.</div></td>
+</tr>
+<tr class="year"><td colspan="5">2023</td></tr>
+<tr class="high">
+  <td class="date"><b>01/01/2023</b><div class="sub">signed 07/04/2022<br>JO 12/04/2022</div></td>
+  <td class="act"><b>Arrêté 7 avr. 2022 (art. 2) + Décret 2022-1451</b><div class="sub">JORFTEXT000045545997<br> JORFTEXT000046588817</div><span class="tag">eligibility_works</span></td>
+  <td class="applies">applications filed from 2023-01-01</td>
+  <td class="content">Very-high-performance gas boilers removed from eligible works (forfait was 1200/800 for blue/yellow, nothing for violet/rose). Décret 2022-1451 also revises data-sharing (recipients, retention).</td>
+  <td class="ne"><span class="badge high">high</span><div class="note">Exit of a geste, announced ~9 months ahead, so expect pull-forward of gas-boiler applications in 2022. Exposure: gas-boiler installers' share of MPR activity.</div></td>
+</tr>
+<tr class="high">
+  <td class="date"><b>01/01/2023</b><div class="sub">signed 29/12/2022<br>JO 30/12/2022</div></td>
+  <td class="act"><b>Décret 2022-1718 + Arrêté 29 déc. 2022</b><div class="sub">JORFTEXT000046837482<br> JORFTEXT000046837503</div><span class="tag">amount</span> <span class="tag">eligibility_applicant</span> <span class="tag">eligibility_works</span></td>
+  <td class="applies">applications filed from 2023-01-01; some items from 2023-02-01 and 2023-04-01</td>
+  <td class="content">Extension beyond 2022 of landlord eligibility, AMO, rénovation globale, passoire/BBC bonuses. From 2023-02-01: rénovation globale forfait raised for violet/rose; pellet stoves (3000/2500 -&gt; 2500/2000) and VMC DF (3000/2500 -&gt; 2500/2000) cut by 500 EUR for blue/yellow. From 2023-04-01: insulation forfaits removed for upper-income (rose) households in mainland (e.g. ITE 15 EUR/m2, attic 7 EUR/m2 -&gt; not eligible); fossil heating excluded from rénovation globale bundles. 2022 bonus extended to 2023-03-31 then lapses (air-water heat pump back to 4000/3000/2000).</td>
+  <td class="ne"><span class="badge high">high</span><div class="note">Rose x insulation exit on 2023-04-01 is a clean income x geste design (rose households then have no par-geste forfaits at all). Same day as end of the heat-pump bonus, so separate by geste.</div></td>
+</tr>
+<tr class="medium">
+  <td class="date"><b>01/06/2023</b><div class="sub">signed 30/05/2023<br>JO 31/05/2023</div></td>
+  <td class="act"><b>Décret 2023-416 + Arrêté 30 mai 2023</b><div class="sub">JORFTEXT000047602709<br> JORFTEXT000047602747</div><span class="tag">procedure</span> <span class="tag">firm_rule</span> <span class="tag">eligibility_works</span></td>
+  <td class="applies">applications filed from 2023-06-01</td>
+  <td class="content">Energy audit, fuel-tank removal and AMO fundable only together with at least one other eligible geste. ANAH may reject an application on technical-economic grounds. Only the applicant may create the online account (curbs installer/mandataire-run accounts). Tax notice requested at ANAH discretion. Income ceilings explicitly indexed annually on ANAH ceilings.</td>
+  <td class="ne"><span class="badge medium">medium</span><div class="note">Anti-fraud tightening aimed at intermediaries. Possible supply-side effect on firms relying on mandataire model.</div></td>
+</tr>
+<tr class="year"><td colspan="5">2024</td></tr>
+<tr class="high">
+  <td class="date"><b>01/01/2024</b><div class="sub">signed 29/12/2023<br>JO 30/12/2023</div></td>
+  <td class="act"><b>Décret 2023-1365 + Arrêté 29 déc. 2023</b><div class="sub">JORFTEXT000048729510<br> JORFTEXT000048729714</div><span class="tag">all</span></td>
+  <td class="applies">applications filed from 2024-01-01; biomass cut from 2024-04-01</td>
+  <td class="content">2024 reform. (1) Rénovation globale replaced by 'ensemble de travaux' (Parcours accompagné, mainland): requires Mon Accompagnateur Rénov'; aid = % of HT expense by class gain (violet 45/50%, rose 30/35%; caps 40k/55k/70k for 2/3/4+ classes; +10% for F/G); MAR accompaniment forfait. (2) Par geste: from 2024-07-01 dwelling must be class A-E (F/G excluded); individual houses: gestes 6-12 (insulation, VMC, etc.) only alongside a heating geste (2-5); DPE required. (3) Amounts: air-water heat pump permanently 5000/4000/3000; geothermal 11000/9000/6000; from 2024-04-01 biomass cut (auto boiler 10000/8000/4000 -&gt; 7000/5500/3000; pellet stove 2500/2000/1500 -&gt; 1800/1500/1000). (4) Income ceilings now those of ANAH arrêté 24 May 2013 (MPR annex abrogated); landlords assessed on own household. Landlord rental commitment 6 years; 3-year occupancy for accompagné.</td>
+  <td class="ne"><span class="badge high">high</span><div class="note">Many simultaneous changes (heavy confounding). Best candidates: heat-pump permanent raise vs CET flat; biomass cut 2024-04-01; heating-geste requirement for insulation in houses (only in force 2024-01-01..05-14, see next row).</div></td>
+</tr>
+<tr class="high">
+  <td class="date"><b>15/05/2024</b><div class="sub">signed 21/03/2024<br>JO 22/03/2024</div></td>
+  <td class="act"><b>Décret 2024-249 + Arrêté 21 mars 2024</b><div class="sub">JORFTEXT000049309890<br> JORFTEXT000049309915</div><span class="tag">eligibility_works</span> <span class="tag">eligibility_housing</span> <span class="tag">procedure</span></td>
+  <td class="applies">applications filed from 2024-05-15</td>
+  <td class="content">Partial reversal of 2024 reform: F/G exclusion from par geste postponed to 2025-01-01; heating-geste requirement lifted until 2025-01-01; VMC DF must now accompany an insulation geste; DPE requirement for par geste lifted until end 2024. Grants awarded within ANAH's annual commitment budget. Sale agreement accepted at application.</td>
+  <td class="ne"><span class="badge high">high</span><div class="note">On/off design: insulation-only par geste in houses barred 2024-01-01..05-14 then reopened. Announced ~Feb 2024 (to verify). Successive postponements (rows below) mean F/G exclusion never bit through 2026.</div></td>
+</tr>
+<tr class="year"><td colspan="5">2025</td></tr>
+<tr class="medium">
+  <td class="date"><b>01/01/2025</b><div class="sub">signed 15/07/2024<br>JO 16/07/2024</div></td>
+  <td class="act"><b>Décret 2024-819</b><div class="sub">JORFTEXT000049990208</div><span class="tag">cumulation</span></td>
+  <td class="applies">applications filed from 2025-01-01</td>
+  <td class="content">Parcours accompagné écrêtement: minimum share left to household lowered 40% -&gt; 20% (violet) and 60% -&gt; 50% (rose), i.e. more room to stack MPR with CEE and other aids.</td>
+  <td class="ne"><span class="badge medium">medium</span><div class="note">Directly relevant to MPR x CEE interaction (co-authors' angle): binding stacking cap relaxed for violet/rose.</div></td>
+</tr>
+<tr class="high">
+  <td class="date"><b>01/01/2025</b><div class="sub">signed 04/12/2024<br>JO 05/12/2024</div></td>
+  <td class="act"><b>Décret 2024-1143 + Arrêté 4 déc. 2024</b><div class="sub">JORFTEXT000050731838<br> JORFTEXT000050731904</div><span class="tag">amount</span> <span class="tag">eligibility_works</span></td>
+  <td class="applies">applications filed from 2025-01-01</td>
+  <td class="content">Postponed to 2026-01-01: F/G par-geste exclusion, heating-geste requirement, DPE requirement. Advances for very-low-income (blue) par geste capped at 50% (was 70%). Parcours accompagné rose rates cut 30/35/35% -&gt; 10/15/20%. Biomass forfaits cut ~30% (auto boiler 7000/5500/3000 -&gt; 5000/3850/2100; pellet stove 1800/1500/1000 -&gt; 1250/1000/750). This biomass cut (art. 4 1°) was annulled by Conseil d'État n°501151 of 2026-03-11.</td>
+  <td class="ne"><span class="badge high">high</span><div class="note">Rose x accompagné cut is large. Biomass cut annulled ex post: legal amounts for 2025 applications uncertain (consolidated text still shows cut values with a nota) - check decision and ANAH practice.</div></td>
+</tr>
+<tr class="medium">
+  <td class="date"><b>01/07/2025</b><div class="sub">signed 16/06/2025<br>JO 17/06/2025</div></td>
+  <td class="act"><b>Décret 2025-545 + Arrêté 16 juin 2025</b><div class="sub">JORFTEXT000051745641<br> JORFTEXT000051745653</div><span class="tag">firm_rule</span></td>
+  <td class="applies">mandates signed from 2025-07-01</td>
+  <td class="content">New obligations and guarantees for fund-collecting mandataires (intermediaries/installers receiving the prime on behalf of households); required supporting documents.</td>
+  <td class="ne"><span class="badge medium">medium</span><div class="note">Firm-side: affects installers who advance the prime via mandat de perception.</div></td>
+</tr>
+<tr class="high">
+  <td class="date"><b>30/09/2025</b><div class="sub">signed 08/09/2025<br>JO 09/09/2025</div></td>
+  <td class="act"><b>Décret 2025-956 + Arrêté 8 sept. 2025</b><div class="sub">JORFTEXT000052212707<br> JORFTEXT000052212786</div><span class="tag">eligibility_housing</span> <span class="tag">amount</span> <span class="tag">eligibility_works</span></td>
+  <td class="applies">applications filed from 2025-09-30; geste removals from 2026-01-01</td>
+  <td class="content">Parcours accompagné restricted to dwellings classed E-G before works; passoire bonus removed; expense caps 30k (2 classes) / 40k (3+ classes); single rate 45% violet / 10% rose regardless of class gain. Par-geste F/G exclusion, heating requirement and DPE requirement postponed to 2027-01-01. From 2026-01-01: biomass boilers and wall insulation removed from par geste. Optional DPE attestation under the new electricity conversion factor.</td>
+  <td class="ne"><span class="badge high">high</span><div class="note">Reopening of Parcours accompagné after the summer 2025 suspension (suspension itself is not in these texts). Wall insulation and biomass boiler exit from par geste on 2026-01-01.</div></td>
+</tr>
+<tr class="low">
+  <td class="date"><b>23/11/2025</b><div class="sub">signed 21/11/2025<br>JO 22/11/2025</div></td>
+  <td class="act"><b>Décret 2025-1107</b><div class="sub">JORFTEXT000052820603</div><span class="tag">firm_rule</span> <span class="tag">procedure</span></td>
+  <td class="applies">in force next day</td>
+  <td class="content">Anti-fraud (loi 2025-594): single ANAH sanctions commission covering MPR, Mon Accompagnateur Rénov' and aides à la pierre; rules for terminating MAR contracts; MAR agreement scope; mandatory administrative appeal for MAR agreement withdrawals.</td>
+  <td class="ne"><span class="badge low">low</span><div class="note">Enforcement tightening; possibly relevant for MAR operator entry/exit.</div></td>
+</tr>
+</tbody></table></body></html>
